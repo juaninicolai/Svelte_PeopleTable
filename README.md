@@ -1,4 +1,4 @@
-People Table
+#NodeJS People Table
 
 Homework for Full Stack NodeJS course at KEA, 4th semester of Computer Science program.
 
