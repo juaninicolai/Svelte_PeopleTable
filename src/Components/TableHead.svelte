@@ -1,4 +1,5 @@
 <tr>
+  <th>Picture</th>
   <th>Name</th>
   <th>Email</th>
   <th>City</th>

@@ -11,6 +11,7 @@
     }
     for (let i = 0; i <= 10; i++) {
       rows.push({
+        pic: faker.image.avatar(),
         name: faker.name.firstName(),
         email: faker.internet.email(),
         city: faker.address.cityName(),

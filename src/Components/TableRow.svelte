@@ -4,6 +4,7 @@
 
 {#each rows as row}
   <tr>
+    <td><img src={row.pic} alt="avatar" /></td>
     <td>{row.name}</td>
     <td>{row.email}</td>
     <td>{row.city}</td>
