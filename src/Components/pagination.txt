@@ -1,0 +1,29 @@
+   pages = rows.length / size;
+
+    if (rows.length === 0) {
+      return rows;
+    }
+
+    let lastElement = currentPage * size + size;
+
+    if (lastElement > rows.length) {
+      lastElement = rows.length;
+    }
+
+    const firstElement = currentPage * size;
+    
+    let counter = 0;
+    
+    rows.forEach((row) => {
+      if (counter >= firstElement && counter <= lastElement) subarray.push(row);
+      counter++;
+    });
+    subarray = subarray;
+  };
+
+  $: subarray = [];
+
+
+    let size = 10;
+  $: pages = 1;
+  $: currentPage = 0;

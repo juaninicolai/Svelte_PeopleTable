@@ -9,7 +9,7 @@
     if (rows.length > 0) {
       rows = [];
     }
-    for (let i = 0; i <= 10; i++) {
+    for (let i = 1; i <= 10; i++) {
       rows.push({
         pic: faker.image.avatar(),
         name: faker.name.firstName(),
@@ -23,12 +23,12 @@
   };
 </script>
 
+<button on:click={generateData}>Generate</button>
+<br />
 <table>
   <TableHead />
   <TableRow {rows} />
 </table>
-<br />
-<button on:click={generateData}>Generate</button>
 
 <style>
   table {
