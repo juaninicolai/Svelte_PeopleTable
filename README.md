@@ -1,4 +1,4 @@
-# NodeJS_People_Table
+# Svelte_People_Table
 
 Homework for Full Stack NodeJS course at KEA, 4th semester of Computer Science program.
 
